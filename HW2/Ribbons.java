@@ -5,7 +5,7 @@ public class Ribbons extends Decorations {
     public String printtree() {
         return tree.printtree() + ", Ribbons";
     }
-    public int Cost(){
+    public double Cost(){
         return tree.Cost() + 2;
     }
 

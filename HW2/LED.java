@@ -5,7 +5,7 @@ public class LED extends Decorations {
     public String printtree() {
         return tree.printtree() + ", LED";
     }
-    public int Cost(){
+    public double Cost(){
         return tree.Cost() + 10;
     }
 

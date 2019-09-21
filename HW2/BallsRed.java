@@ -5,7 +5,7 @@ public class BallsRed extends Decorations {
     public String printtree() {
         return tree.printtree() + ", Red Ball";
     }
-    public int Cost(){
+    public double Cost(){
         return tree.Cost() + 1;
     }
 

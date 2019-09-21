@@ -5,7 +5,7 @@ public class Lights extends Decorations {
     public String printtree() {
         return tree.printtree() + ", Lights";
     }
-    public int Cost(){
+    public double Cost(){
         return tree.Cost() + 5;
     }
 

@@ -1,9 +1,9 @@
 public class BalsamFir extends Tree {
     public BalsamFir(){
-        name = "Balsam Fir";
+        description = "Balsam Fir decorated with";
         cost = 5;
     }
-    public int Cost(){
+    public double Cost(){
         return cost;
     }
 }
