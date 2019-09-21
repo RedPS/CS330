@@ -1,4 +1,4 @@
-public class mainDrive {
+public class mainDriver {
 
     interface myInterface { 
         void run(); 
